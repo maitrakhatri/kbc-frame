@@ -16,7 +16,7 @@ type State = {
 const app = new Frog<{ State: State }>({
   assetsPath: "/",
   basePath: "/api",
-  title: "Kaun Banega Cororepati",
+  title: "Kaun Banega Crorepati",
   //State Management setup
   initialState: {
     count: 0,
@@ -123,7 +123,7 @@ app.frame("/", (c) => {
               display: "flex",
             }}
           >
-            Kaun Banega Cororepati
+            Kaun Banega Crorepati
           </div>
         )}
         {status !== "initial" && !state.quizEnd && (
