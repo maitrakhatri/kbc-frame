@@ -13,7 +13,7 @@ type State = {
   wrongAnswer: boolean;
 };
 
-export const app = new Frog<{ State: State }>({
+const app = new Frog<{ State: State }>({
   assetsPath: "/",
   basePath: "/api",
   title: "Kaun Banega Cororepati",
